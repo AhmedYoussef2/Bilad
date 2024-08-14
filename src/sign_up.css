@@ -1,0 +1,221 @@
+.my-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    min-height: 684px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 150%;
+    padding: 47px 80px 80px;
+    background-color: rgb(0, 0, 0);
+}
+
+.my-img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    background-color: #000;
+    opacity: 0.4;
+}
+
+.my-div2 {
+    position: relative;
+    text-align: center;
+    letter-spacing: -0.24px;
+    font: 600 24px Inter, sans-serif;
+}
+
+.my-div3 {
+    position: relative;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+.my-div4 {
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    border-radius: 8px;
+    border-color: rgba(224, 224, 224, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff;
+    margin-top: 15px;
+    width: 400px;
+    max-width: 100%;
+    color: #828282;
+    white-space: nowrap;
+    justify-content: center;
+    padding: 5px 16px;
+    font: 20px Inter, sans-serif;
+}
+
+.my-div5 {
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    border-radius: 8px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    background-color: black;
+    margin-top: 12px;
+    width: 400px;
+    max-width: 100%;
+    color: #ffffff;
+    white-space: nowrap;
+    justify-content: center;
+    text-align: center;
+    padding: 3px 16px;
+    font: 20px Inter, sans-serif;
+}
+
+.my-div6 {
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    border-radius: 8px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    background-color: black;
+    margin-top: 12px;
+    width: 400px;
+    max-width: 100%;
+    color: #ffffff;
+    white-space: nowrap;
+    justify-content: center;
+    text-align: center;
+    padding: 3px 16px;
+    font: 20px Inter, sans-serif;
+}
+
+
+.my-div7 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 12px;
+    gap: 8px;
+    font-weight: 400;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+
+    width: 973px;
+    height: 30px;
+
+    flex: none;
+    flex-grow: 0;
+
+}
+
+
+.my-div8 {
+    background-color: #ffffff;
+    align-self: stretch;
+    height: 1px;
+    flex: 1;
+    margin: auto 0;
+}
+
+.my-div9 {
+    font-family: Inter, sans-serif;
+    align-self: stretch;
+}
+
+.my-div10 {
+    background-color: #ffffff;
+    align-self: stretch;
+    height: 1px;
+    flex: 1;
+    margin: auto 0;
+}
+
+.my-div11 {
+    position: relative;
+    border-radius: 100px;
+    background-color: #fff;
+    display: flex;
+    margin-top: 12px;
+    width: 705px;
+    max-width: 100%;
+    gap: 0px;
+    color: #000;
+    white-space: nowrap;
+    padding: 2px 40px;
+}
+
+
+.my-img2 {
+    aspect-ratio: 1.03;
+    object-fit: auto;
+    object-position: center;
+    width: 38px;
+}
+
+.my-div12 {
+    font-family: Inter, sans-serif;
+    flex-basis: auto;
+    margin: 12px;
+    padding: 0px 45px;
+    width: 400px;
+    max-width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.my-div13 {
+    position: relative;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+@media (max-width: 991px) {
+    .my-div {
+        padding: 0 20px;
+    }
+
+    .my-div4 {
+        white-space: initial;
+    }
+
+    .my-div5 {
+        padding: 0 20px;
+    }
+
+    .my-div6 {
+        padding: 0 20px;
+    }
+
+    .my-div7 {
+        flex-wrap: wrap;
+    }
+
+    .my-div11 {
+        flex-wrap: wrap;
+        white-space: initial;
+        padding: 0 20px;
+    }
+
+    .my-div13 {
+        max-width: 100%;
+    }
+}
